@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://cym0fswpl8mue"]
+
+[ext_resource type="Script" path="res://texture_progress_bar.gd" id="1_dkwtx"]
+[ext_resource type="Script" path="res://control.gd" id="1_exkiu"]
+[ext_resource type="Texture2D" uid="uid://bq7p4gfcdpchl" path="res://under.png" id="1_qbaud"]
+[ext_resource type="Texture2D" uid="uid://fdiq3ygrtdy2" path="res://over.png" id="2_x32o6"]
+[ext_resource type="Texture2D" uid="uid://bh1hcujkqgh23" path="res://progress.png" id="3_i1i23"]
+[ext_resource type="Script" path="res://addons/radial_progress/RadialProgress.gd" id="5_pcchg"]
+
+[node name="Control" type="Control"]
+custom_minimum_size = Vector2(32, 8)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1120.0
+offset_bottom = -640.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_exkiu")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_left = 518.0
+offset_top = 135.0
+offset_right = 582.0
+offset_bottom = 199.0
+step = 10.0
+texture_under = ExtResource("1_qbaud")
+texture_over = ExtResource("2_x32o6")
+texture_progress = ExtResource("3_i1i23")
+script = ExtResource("1_dkwtx")
+
+[node name="RadialProgress" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 309.0
+offset_top = 135.0
+offset_right = 349.0
+offset_bottom = 175.0
+script = ExtResource("5_pcchg")
+radius = 30.0
+thickness = 30.0
+bg_color = Color(0.585026, 0.495271, 0.081671, 1)
+bar_color = Color(0.953594, 0.645596, 0.771999, 1)
+ring = true

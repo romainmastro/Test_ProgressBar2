@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1727959107
+control.gd::GDScript::-1::1727958306::0::1::::<>Control<>::
+control.tscn::PackedScene::6483673981639925108::1727958925::0::1::::<><>::res://texture_progress_bar.gd<>res://control.gd<>uid://bq7p4gfcdpchl::::res://under.png<>uid://fdiq3ygrtdy2::::res://over.png<>uid://bh1hcujkqgh23::::res://progress.png<>res://addons/radial_progress/RadialProgress.gd
+icon.svg::CompressedTexture2D::3110419240501152056::1727942702::1727959088::1::::<><>::
+over.png::CompressedTexture2D::357653168122142655::1727943432::1727959088::1::::<><>::
+progress.png::CompressedTexture2D::2931846066148280062::1727943432::1727959088::1::::<><>::
+texture_progress_bar.gd::GDScript::-1::1727958925::0::1::::<>TextureProgressBar<>::
+under.png::CompressedTexture2D::3576465135905865897::1727943432::1727959088::1::::<><>::
+world.tscn::PackedScene::-1::1727958403::0::1::::<><>::
+::res://addons/::1727957754
+::res://addons/radial_progress/::1727959088
+icon.png::CompressedTexture2D::5774801608463766661::1727957754::1727959088::1::::<><>::
+plugin.cfg::TextFile::-1::1727957754::0::1::::<><>::
+RadialProgress.gd::GDScript::-1::1727957754::0::1::::RadialProgress<>Control<>::
+radial_progress.gd::GDScript::-1::1727957754::0::1::::<>EditorPlugin<>::
